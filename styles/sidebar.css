@@ -1,0 +1,48 @@
+.sidebar{
+ color:white;
+ position:fixed;
+left:0;
+bottom:10;
+top:70px;
+right:1650px;
+width:70px;
+height:956px;
+background-color: black;
+padding-left:4px;
+padding-right:4px;
+margin-right: 20px;
+z-index: 10;
+}
+.side-link{
+  background-color: transparent;
+  height:85px;
+  margin-bottom: 2px;
+  cursor: pointer;
+  position: relative;
+}
+.side-link:hover{
+  background-color: rgba(100, 100, 100,0.3);
+  border-radius: 10px;
+}
+.home{
+  position: absolute;
+ height:28px;
+ width:28px;
+ left:20px;
+ top:20px;
+}
+.name{
+  font-family: Roboto,arial;
+  font-size: 10px;
+  font-weight: 500;
+  position:absolute;
+  bottom: 20px;
+  left:20px;
+}
+.subs{
+  position: relative;
+  height:35px;
+  top:15px;
+  bottom: 0px;
+  left:18px;
+}

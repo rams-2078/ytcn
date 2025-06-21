@@ -1,0 +1,143 @@
+.header{
+ height:70px;
+ display:flex;
+ flex-direction: row;
+ justify-content: space-between;
+ position:fixed;
+ top:0;
+ left:0;
+ right:0;
+ background-color: rgba(0, 0, 0, 0.8); 
+ z-index:100;
+}
+.left{
+ color:white;
+ display:flex;
+ align-items: center;
+ margin-left: 16px;
+ padding-left:0;
+}
+.middle{
+ flex:1;
+ margin-left: 300px;
+ margin-right: 300px;
+ display: flex;
+ align-items: center;
+}
+.right{
+ width:230px;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ flex-shrink: 0;
+}
+.yt-icon{
+ height:50px;
+cursor: pointer;
+}
+.menu{
+ height:30px;
+ width: 30px;
+ border-radius: 20px;
+ margin-right:12px;
+cursor: pointer;
+background-color: black;
+}
+.menu:hover{
+  background-color: rgb(74,74,74);
+  opacity: 0.8;
+}
+.search{
+ height:40px;
+ width:50px;
+ margin-left: -70px;
+ border-radius: 50px;
+ padding-left: 18.5px;
+ cursor: pointer;
+ z-index:1000;
+}
+.mic{
+  height:50px;
+  width:50px;
+  border-radius: 50px;
+ cursor: pointer;
+ margin-left: 20px;
+ transition: 0.15;
+}
+.mic:hover{
+  color: rgb(74,74,74);
+  opacity: 0.8;
+}
+.searchbar{
+ flex:1;
+ height:40px;
+ width:515px;
+ border-radius: 50px;
+ border-style:solid;
+ border-width: 0.5px;
+ background-color: black;
+ padding-left:16px;
+ font-size: 16px;
+ color: white;
+border-color: rgb(96,96,96);
+box-shadow:inset 1px 1px 3px 
+rgba(0, 0, 0, 0.05);
+width:0;
+position: relative;
+}
+.tool{
+  position: absolute;
+  background-color: rgb(47, 47, 47);
+  color: aliceblue;
+  size:8px;
+  z-index:1100;
+  padding: 3px;
+  right: 600px;
+  top:60px;
+}
+.search:hover .tool{
+  opacity: 1;
+}
+.searchbar::placeholder{
+ font-family:roboto,arial;
+ font-size: 16px;
+}
+.create{
+  background-color: rgb(35, 35, 35);
+  color:white;
+  height:38px;
+  width:140px;
+  font-size: 14px;
+  border-radius:50px;
+  border-style:solid;
+  border-width: 0px;
+  font-weight: bold;
+ margin-left: 10px;
+ cursor: pointer;
+ transition: 0.15s;
+}
+.create:hover{
+  background-color:rgb(74, 74, 74);
+  opacity: 0.8;
+}
+.create:active{
+  opacity: 0.5;
+}
+.bell{
+  background-color: black;
+  height: 40px;
+  width:40px;
+  margin-left:15px ;
+  margin-right:15px ;
+}
+.bell:hover{
+  background-color:rgb(74, 74, 74);
+  opacity: 0.8;
+}
+.bell:active{
+  opacity: 0.5;
+}
+.profile{
+ margin-right: 16px;
+ 
+}
